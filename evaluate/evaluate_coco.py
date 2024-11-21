@@ -8,8 +8,6 @@ import ast
 import pandas as pd
 from mmdet.evaluation import CocoMetric
 from mmengine.fileio import dump
-# import warnings
-# warnings.simplefilter("error", SyntaxWarning)
 
 def load_json(file_path):
     with open(file_path, 'r') as f:
